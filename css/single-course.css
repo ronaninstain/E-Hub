@@ -1,0 +1,333 @@
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+@media (min-width: 1440px) {
+  .for-bg-e-learning-hero-single-course .container,
+  .for-e-single-des-bg-learning .container,
+  .for-single-course-e-awards-and-des .container,
+  .e-learning-course-curriulm-single .container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+}
+
+.single-course section#title {
+  background: #f1f5f9 !important;
+}
+
+.for-bg-e-learning-hero-single-course {
+  padding: 40px 0;
+}
+
+.e-learning-solution-if-flex-needed-in-hero-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+div#item-header-avatar img {
+  width: 550px;
+}
+
+.single-course
+  .e-learning-solution-if-flex-needed-in-hero-div
+  div#item-header-content
+  h1 {
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 46px;
+  color: #2b354e;
+}
+
+.for-e-learning-c-duration-and-unit ul li {
+  display: inline-block;
+  padding: 10px 0px;
+  color: #64748b;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.e-solution-course-enrol-button {
+  width: 615px;
+  height: 64px;
+}
+
+.single-course .e-solution-course-enrol-button .course_button.button {
+  background: #317eff;
+  border-radius: 5px;
+}
+
+#item-header.light #item-header-content .e-solution-course-enrol-button a {
+  color: #ffffff !important;
+}
+
+.e-solution-course-enrol-button #item-header.light #item-header-content a {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.for-e-single-des-bg-learning {
+  background: #fff !important;
+  padding: 50px 0;
+}
+
+.single-course div#item-body {
+  padding: 0;
+}
+
+.single-course div#item-body .course_description h3 {
+  color: #2b354e;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 600;
+}
+
+.single-course div#item-body .course_description h6 p {
+  color: #64748b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.for-single-course-e-awards-and-des {
+  background: #f1f5f9;
+}
+
+.for-e-single-flexing-thedivs-award-and-des {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 50px 0;
+}
+
+.e-the-actual-award-des p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #2b354e;
+  font-weight: 400;
+}
+
+.e-the-actual-award-des {
+  width: 50%;
+}
+
+.e-the-actual-award-img {
+  width: 30%;
+}
+
+.e-learning-course-curriulm-single {
+  padding: 80px 0;
+}
+
+.e-learning-course-curriulm-single h4 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #2b354e;
+}
+
+.single-course .course_curriculum {
+  width: 720px;
+  margin: 0 auto;
+}
+
+/* .e-learning-course-curriulm-single .course_curriculum.accordion {
+  margin: 0 100px;
+  padding: 0 20px;
+} */
+
+.e-learning-course-curriulm-single
+  .course_curriculum.accordion
+  .course_curriculum
+  .course_section
+  > td {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #2b354e;
+  background: #fff;
+}
+
+.e-learning-course-curriulm-single
+  .course_curriculum.accordion
+  tr.course_lesson {
+  background: #e2e8f0;
+  border-top: 1px solid #e2e8f0;
+}
+
+.e-learning-course-curriulm-single
+  .course_curriculum.accordion
+  tr.course_lesson
+  td
+  a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2b354e;
+}
+
+.e-learning-course-curriulm-single .course_curriculum.accordion .heading {
+  clear: none;
+  font-size: 0;
+  padding: 0;
+  font-weight: 0;
+  border-bottom: 0;
+}
+
+.e-learning-course-curriulm-single
+  .course_curriculum.accordion
+  .course_curriculum
+  .course_lesson
+  .curriculum-icon
+  > i {
+  background: #317eff;
+  color: #fff;
+  border-radius: 50px;
+  margin: 0;
+  display: grid;
+}
+
+.e-learning-course-curriulm-single span.time i {
+  color: #317eff !important;
+}
+
+/* Responsive */
+
+/* Tab */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .single-course
+    .e-learning-solution-if-flex-needed-in-hero-div
+    div#item-header-content
+    h1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  .e-solution-course-enrol-button {
+    width: 320px;
+    height: 50px;
+  }
+
+  .e-learning-course-curriulm-single
+    .course_curriculum.accordion
+    .course_curriculum
+    .course_section
+    > td {
+    font-size: 17px;
+    line-height: 24px;
+    padding: 8px 25px;
+  }
+
+  /* .e-learning-course-curriulm-single .course_curriculum.accordion table.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  } */
+}
+
+/* Mobile */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .e-learning-solution-if-flex-needed-in-hero-div {
+    flex-direction: column;
+  }
+
+  .single-course .single section#title {
+    padding-top: 30px;
+  }
+
+  .single-course
+    .e-learning-solution-if-flex-needed-in-hero-div
+    div#item-header-content
+    h1 {
+    font-size: 20px;
+    line-height: 25px;
+    width: 211px;
+    margin: 0 auto;
+  }
+
+  .single-course div#item-header-content {
+    text-align: center;
+  }
+
+  .e-solution-course-enrol-button {
+    width: 350px;
+    height: 35px;
+    margin: 0 auto;
+  }
+
+  .for-e-learning-c-duration-and-unit ul {
+    display: inline-flex;
+  }
+
+  .for-e-learning-c-duration-and-unit ul li {
+    padding: 10px 2px;
+    font-size: 11px;
+  }
+
+  .for-e-single-flexing-thedivs-award-and-des {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .single-course div#item-body .course_description h3 {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .for-e-single-des-bg-learning div#item-body {
+    padding: 0;
+  }
+
+  /* .e-learning-course-curriulm-single .course_curriculum.accordion table.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 0 0 -60px;
+  } */
+
+  .e-learning-course-curriulm-single h4 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .single-course .course_curriculum {
+    width: 350px;
+  }
+
+  .e-learning-course-curriulm-single
+    .course_curriculum.accordion
+    .course_curriculum
+    .course_section
+    > td {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

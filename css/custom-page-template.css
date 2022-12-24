@@ -1,0 +1,421 @@
+.eb-hero-title {
+  color: #ffffff;
+  font-family: "Roboto Slab", Sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 51px;
+}
+
+.eb-hero-subtitle {
+  color: #ffffff;
+  font-family: "Roboto Slab", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 37px;
+  padding-bottom: 10px;
+}
+
+.eb-hero-des {
+  color: #ffffff;
+  font-family: "Roboto Slab", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 28px;
+}
+
+.eb-hero-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.eb-hero-bg {
+  background-image: url("https://examshub.co.uk/wp-content/uploads/2022/12/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}
+
+.eb-btn {
+  margin: 10px;
+  font-family: "Roboto Slab", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 36px;
+  fill: #05c1eb;
+  color: #05c1eb;
+  background-color: #030102;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #0d7b42;
+  border-radius: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
+}
+
+.eb-subhero-bg {
+  background-image: url("https://examshub.co.uk/wp-content/uploads/2022/12/subhero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.eb-subhero-container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.eb-subhero-title {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 36px;
+}
+
+.faq-container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background-color: aliceblue;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.faq-container .faq-item p {
+  color: #000000;
+  font-family: "Roboto Slab", Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.faq-container .faq-item h2 {
+  color: #000000;
+  font-family: "Roboto Slab", Sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.faq-container .faq-title {
+  color: #192a56;
+  font-family: "Poppins", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 72px;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .eb-hero-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+  }
+  .eb-subhero-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .faq-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .eb-hero-bg {
+    min-height: 500px;
+  }
+  .custom-sec-bg {
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .eb-hero-container {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+  }
+  .eb-subhero-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .faq-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .eb-hero-bg {
+    min-height: 600px;
+  }
+  .eb-hero-title {
+    font-size: 36px;
+  }
+
+  .faq-container .faq-title {
+    font-size: 28px;
+    line-height: 52px;
+  }
+  .custom-sec-bg {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Shoive Bhai CSS */
+
+/*.custom-Alphabetic-exam-search-section-ks {*/
+/*           margin: 0 auto;*/
+/*           max-width: 1184px;*/
+/*           height: 83px;*/
+/*       }*/
+
+.custom-sec-bg {
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.the-search-box-plus-heading-ks {
+  display: flex;
+  flex: row;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background: #00c1ec;
+  border-radius: 50px;
+  padding: 0 10px;
+}
+
+.exam-search-ks-title h2 {
+  font-family: "Poppins";
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #192a56;
+}
+
+.exam-search-ks-box form#search {
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  width: 538px;
+  height: 64px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  align-content: center;
+  padding: 0 30px;
+}
+.exam-search-ks-box form#search i.fa.fa-search {
+  color: #000;
+}
+
+.exam-search-ks-box input#AR-myInput {
+    border: 0;
+    color: #000000;
+    font-family: "Poppins";
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.exam-search-ks-box form#search button.sbtn {
+  border: 0;
+  font-size: 24px;
+  background: transparent;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.the-main-list-ks-exams ul {
+  columns: 2;
+  list-style: none;
+}
+
+.the-exam-searching-content-ks {
+  padding: 30px 0;
+}
+
+.the-main-list-ks-exams ul li {
+  background: #f7f7f7;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+  padding: 35px;
+}
+
+.exam-search-ks-title {
+  padding: 0 50px;
+}
+
+.the-main-list-ks-exams ul li a {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 36px;
+  font-weight: 24px;
+  color: #000000;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.the-all-search-exam-btn-ks {
+  padding: 0 30px;
+}
+
+.the-all-search-exam-btn-ks a {
+  color: #05c1eb;
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .the-search-box-plus-heading-ks {
+    padding: 0 10px;
+  }
+
+  .exam-search-ks-title {
+    padding: 0 15px;
+  }
+
+  .exam-search-ks-box form#search {
+    width: 405px;
+    height: 45px;
+    padding: 0px 20px;
+  }
+
+  .exam-search-ks-title h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .exam-search-ks-box form#search input#search-exam {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .the-main-list-ks-exams ul li a {
+    line-height: 35px;
+    font-size: 19px;
+  }
+
+  .the-main-list-ks-exams ul li {
+    margin-bottom: 25px;
+    padding: 25px;
+  }
+
+  .the-all-search-exam-btn-ks {
+    padding: 0 20px;
+  }
+    .eb-top-container ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .the-search-box-plus-heading-ks {
+    flex-direction: column;
+    background: #00c1ec;
+    border-radius: 0px;
+    padding: 40px 0px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .exam-search-ks-title h2 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .exam-search-ks-title {
+    padding: 0 0px;
+  }
+
+  .exam-search-ks-box form#search {
+    width: 385px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0px 0px;
+  }
+
+  .the-main-list-ks-exams ul li {
+    padding: 10px;
+  }
+
+  .the-main-list-ks-exams ul {
+    columns: 1;
+    padding: 0;
+  }
+
+  .exam-search-ks-box form#search input#search-exam {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .exam-search-ks-box form#search {
+    width: 325px;
+  }
+
+  .the-all-search-exam-btn-ks {
+    padding: 0 0;
+    text-align: center;
+  }
+  .eb-top-container ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
+
+
+.eb-top-sec{
+    background-color: #00C1EC;
+}
+.eb-top-container{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.eb-top-container ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.eb-top-container ul li a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 30px;
+    color: #000000;
+}
+.eb-top-container ul li a:hover{
+    text-decoration: none;
+}
+
